@@ -11,9 +11,6 @@ def get_frame_from_video(video_name, save_path, interval):
     Returns:
     """
 
-    # 保存图片的路径
-    # pt = '20201210_175151_175653_result 00_02_15-00_04_00_'
-
     is_exists = os.path.exists(save_path)
     if not is_exists:
         os.makedirs(save_path)
